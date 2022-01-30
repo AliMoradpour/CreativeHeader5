@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{font-family: 'Exo 2', sans-serif;}
+#main-header{
+ width: 100%;
+ height: 90vh;
+ border: 2px solid rgb(179, 4, 4);
+
+}
+#main-header .circle{
+ background-color: rgb(179, 4, 4);
+ width: 400px;
+ height: 400px;
+ clip-path: circle(50% at 50% 50%);
+ position: absolute;
+ right: 10%;
+ top: 25%;
+ background: url(../img/Mypic.jpg);
+ background-size: cover;
+}
+#main-header .shape{
+ clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+ background-color: rgb(179, 4, 4);
+ position: absolute;
+ width: 400px;
+ height: 90vh;
+ right: 10%;
+}
+.texts{
+ position: absolute;
+}
+.main-text{
+ font-size: 5rem;
+ margin-top: 200px;
+ margin-left: 200px;
+}
+.text{
+ color: rgb(179, 4, 4);
+ font-size: 7rem;
+}
+.paragraph{
+ font-size: 1.5rem;
+ font-weight: bold;
+ width: 40%;
+ margin-top: 10px;
+ margin-left:200px ;
+}
+.media{
+ position: absolute;
+ top: 83vh;
+ left:190px;
+}
+.media img{
+ width: 40px;
+ height: 40px;
+ margin: 0 10px;
+}
